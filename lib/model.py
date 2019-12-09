@@ -1,6 +1,6 @@
 import logging
 import tensorflow as tf
-from tensorflow.layers import dense
+from tensorflow.keras.layers import dense
 from lib.attention_wrapper import TemporalPatternAttentionCellWrapper
 
 
